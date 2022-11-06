@@ -5,10 +5,8 @@ import "./App.css";
 import Lexica from "./pages/Lexica";
 
 function App() {
-  const [count, setCount] = useState(0);
-  //no tienes snippets?
   return (
-    <div className="App">
+    <div className="">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Lexica />} />
