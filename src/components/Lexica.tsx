@@ -12,10 +12,10 @@ type PropsTypes = {
 const Lexica = ({ data }: PropsTypes) => {
   return (
     <>
-      <div className="grid grid-cols-5 gap-2">
+      <div className="columns-5 gap-2">
         {data?.map((search: any) => (
           <Fragment key={search.id}>
-            <div className="">
+            <div className="mb-2">
               <img src={search.src} alt={search.prompt} />
             </div>
           </Fragment>
